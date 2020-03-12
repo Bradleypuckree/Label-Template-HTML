@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Morgan Coat Label</title>
+
+<style>
+
+/* TOP TABLE STYLE*/
+
+.top-table  td, th {
+    padding: 7px;
+    border: 2px solid green;
+    border-radius: 5px;
+    text-align: center;
+    width: 700px;
+    height: 5px;
+}
+
+.top-elemants {
+    width: 600px;
+    margin-left: 655px;
+}
+
+/* BOTTOM TABLE STYLE*/
+
+.bottom-table  td, th {
+    border: 2px solid green;
+    text-align: center;
+    width: 300px;
+}
+
+.bottom-table {
+    text-align: center;
+    width: 790px;
+}
+
+.bottom-elemants {
+    width: 390px;
+    margin-left: 475px;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+/* BOTTOM TABLE CUSTOM COL STYLES*/
+
+ td.col-one {
+background-color:white;
+height:270px;
+border: 0 solid green;
+border-bottom: 0 solid green;
+border-radius: 0 0 0 0;
+    }
+
+ td.col-two {
+background-color:white;
+height:200px;
+border: 4px solid green;
+border-bottom: 18px solid green;
+border-radius: 70px 70px 0 0;
+    }
+
+ td.col-three {
+background-color:white;
+height:200px;
+border: 4px solid green;
+border-bottom: 18px solid green;
+border-radius: 70px 70px 0 0;
+    }
+
+ td.col-four {
+background-color:white;
+height:200px;
+border: 4px solid green;
+border-bottom: 18px solid green;
+border-radius: 70px 70px 0 0;
+    }
+
+/* OUTLYING CELL STYLE*/
+
+ td.out-cell {
+background-color:white;
+height:200px;
+border: 2px solid green;
+border-radius: 70px 0 0 70px;
+    }
+
+.outlying-table {
+    width: 270px;
+    margin-left: 390px;
+    margin-top: -225px;
+}
+
+</style>
+ 
+  </head>
+
+  <body>
+
+<div class="wrapper">
+
+<!---TOP ELEMANTS--->
+
+<div class="top-elemants">
+
+<table class="top-table" cellspacing="15">
+<tbody>
+<tr>
+<td>TEST</td>
+<td>TEST</td>
+</tr>
+</tbody>
+</table>
+
+<table class="top-table" cellspacing="15">
+<tbody>
+<tr>
+<td>TEST</td>
+</tr>
+</tbody>
+</table>
+
+<table class="top-table" cellspacing="15">
+<tbody>
+<tr>
+<td>TEST</td>
+<td>TEST</td>
+<td>TEST</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<!---BOTTOM ELEMANTS--->
+
+<div class="bottom-elemants">
+
+ <table class="bottom-table" cellspacing="15">
+<tbody>
+<tr>
+<td class="col-one"></td>
+<td class="col-two">TEST</td>
+<td class="col-three">TEST</td>
+<td class="col-four">TEST</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+<!---OUTLYING CELL --->
+
+<div class="outlying-cell">
+
+ <table class="outlying-table" cellspacing="15">
+<tbody>
+<tr>
+<td class="out-cell">TEST</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+  </body>
+</html>
